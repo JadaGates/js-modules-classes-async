@@ -1,8 +1,8 @@
 import { Person } from "../practice2/Person";
 import { Student } from "../practice2/Student";
 
-const kevin = new Person('Kevin')
-const winnie = new Student('Winnie', 'class1')
+const kevin = new Person("Kevin");
+const winnie = new Student("Winnie", "class1");
 
 test("properties on kevin and winnie expected", () => {
   expect(kevin.name).toBe("Kevin");
